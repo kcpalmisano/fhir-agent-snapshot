@@ -1,0 +1,22 @@
+[
+  {
+    "resourceType": "Encounter",
+    "id": "enc-cardiology-2025-09",
+    "status": "finished",
+    "class": {
+      "code": "AMB"
+    },
+    "type": [
+      {
+        "text": "Cardiology follow up"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/patient-ar"
+    },
+    "period": {
+      "start": "2025-09-15T14:40:00Z",
+      "end": "2025-09-15T15:20:00Z"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "patientId": "patient-ar",
+  "name": "Alice Rodriguez",
+  "signals": [
+    "Latest BNP 180.0 pg/mL"
+  ],
+  "issues": [],
+  "summary": {
+    "BNP": 180,
+    "A1c": null,
+    "Weight(kg)": 79.5
+  }
+}

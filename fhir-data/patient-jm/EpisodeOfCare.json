@@ -1,0 +1,16 @@
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "episode-hf-2025",
+  "status": "active",
+  "type": [
+    {
+      "text": "Heart failure management"
+    }
+  ],
+  "patient": {
+    "reference": "Patient/patient-jm"
+  },
+  "period": {
+    "start": "2025-08-01"
+  }
+}

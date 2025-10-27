@@ -1,0 +1,19 @@
+{
+  "patientId": "patient-jm",
+  "name": "Johnathan Miller",
+  "signals": [
+    "Recent emergency encounter",
+    "Latest BNP 530.0 pg/mL",
+    "Latest A1c 9.2%"
+  ],
+  "issues": [
+    "No ACE/ARB documented for patient with HF",
+    "Elevated BNP; evaluate volume status and HF control",
+    "Poor glycemic control (A1c \u2265 8.0%)"
+  ],
+  "summary": {
+    "BNP": 530,
+    "A1c": 9.2,
+    "Weight(kg)": 103.0
+  }
+}

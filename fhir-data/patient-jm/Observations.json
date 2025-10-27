@@ -1,0 +1,50 @@
+[
+  {
+    "resourceType": "Observation",
+    "id": "obs-bnp-2025-10",
+    "status": "final",
+    "code": {
+      "text": "BNP level"
+    },
+    "effectiveDateTime": "2025-10-12T19:00:00Z",
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "valueQuantity": {
+      "value": 530,
+      "unit": "pg/mL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "obs-a1c-2025-07",
+    "status": "final",
+    "code": {
+      "text": "Hemoglobin A1c"
+    },
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "effectiveDateTime": "2025-07-12",
+    "valueQuantity": {
+      "value": 9.2,
+      "unit": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "obs-weight-2025-10",
+    "status": "final",
+    "code": {
+      "text": "Body weight"
+    },
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "effectiveDateTime": "2025-10-12",
+    "valueQuantity": {
+      "value": 103.0,
+      "unit": "kg"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "resourceType": "Encounter",
+    "id": "enc-ed-2025-10-12",
+    "status": "finished",
+    "class": {
+      "code": "EMER"
+    },
+    "type": [
+      {
+        "text": "ED Visit"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "period": {
+      "start": "2025-10-12T18:25:00Z",
+      "end": "2025-10-12T22:40:00Z"
+    },
+    "reasonCode": [
+      {
+        "text": "Shortness of breath"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "enc-primary-2025-07-18",
+    "status": "finished",
+    "class": {
+      "code": "AMB"
+    },
+    "type": [
+      {
+        "text": "Primary care check-up"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "period": {
+      "start": "2025-07-18T09:00:00Z",
+      "end": "2025-07-18T09:45:00Z"
+    }
+  }
+]

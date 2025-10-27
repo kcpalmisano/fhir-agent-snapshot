@@ -1,0 +1,38 @@
+[
+  {
+    "resourceType": "Condition",
+    "id": "cond-hf",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "text": "Chronic heart failure"
+    },
+    "subject": {
+      "reference": "Patient/patient-ar"
+    },
+    "onsetDateTime": "2019-06-14"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-htn",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "text": "Hypertension"
+    },
+    "subject": {
+      "reference": "Patient/patient-ar"
+    },
+    "onsetDateTime": "2010-08-22"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "resourceType": "MedicationStatement",
+    "id": "med-lisinopril",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "text": "Lisinopril 10mg daily"
+    },
+    "subject": {
+      "reference": "Patient/patient-ar"
+    }
+  },
+  {
+    "resourceType": "MedicationStatement",
+    "id": "med-metoprolol",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "text": "Metoprolol succinate 50mg daily"
+    },
+    "subject": {
+      "reference": "Patient/patient-ar"
+    }
+  },
+  {
+    "resourceType": "MedicationStatement",
+    "id": "med-statin",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "text": "Atorvastatin 40mg nightly"
+    },
+    "subject": {
+      "reference": "Patient/patient-ar"
+    }
+  }
+]

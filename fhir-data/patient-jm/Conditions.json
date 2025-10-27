@@ -1,0 +1,38 @@
+[
+  {
+    "resourceType": "Condition",
+    "id": "cond-hf",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "text": "Chronic heart failure"
+    },
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "onsetDateTime": "2020-03-10"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-dm2",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "text": "Type 2 diabetes mellitus"
+    },
+    "subject": {
+      "reference": "Patient/patient-jm"
+    },
+    "onsetDateTime": "2015-11-02"
+  }
+]

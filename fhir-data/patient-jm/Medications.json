@@ -1,0 +1,24 @@
+[
+  {
+    "resourceType": "MedicationStatement",
+    "id": "med-metformin",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "text": "Metformin 1000mg BID"
+    },
+    "subject": {
+      "reference": "Patient/patient-jm"
+    }
+  },
+  {
+    "resourceType": "MedicationStatement",
+    "id": "med-lasix",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "text": "Furosemide 40mg daily"
+    },
+    "subject": {
+      "reference": "Patient/patient-jm"
+    }
+  }
+]
