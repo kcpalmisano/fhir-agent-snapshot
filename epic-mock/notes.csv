@@ -1,0 +1,4 @@
+patient_id,encounter_id,note_datetime,note_type,author,note_text
+patient-jm,enc-ed-2025-10-12,2025-10-12T22:50:00,ED Provider Note,Dr. Smith,"Assessment: Acute on chronic heart failure exacerbation. BNP elevated to 530. Weight up 2 kg per patient. Plan: Increase furosemide for 3 days, follow up with cardiology within 1 week. Return to ED if worsening shortness of breath."
+patient-jm,enc-primary-2025-07-18,2025-07-18T09:30:00,Primary Care Note,Dr. Lee,"Assessment: Type 2 DM, A1c 9.2%. Plan: reinforce adherence to metformin 1,000 mg BID, discuss adding GLP-1 RA. Follow up 3 months. Review of systems: negative except mild dyspnea on exertion."
+patient-ar,enc-cardiology-2025-09,2025-09-15T15:00:00,Cardiology Follow-up,Dr. Patel,"Impression: HF stable. Patient on lisinopril 10 mg daily and metoprolol succinate 50 mg. BNP 180. Plan: continue current therapy, low-sodium diet, monitor weight, follow up 3 months."

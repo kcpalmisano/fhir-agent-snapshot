@@ -1,0 +1,132 @@
+{
+  "patientId": "patient-jm",
+  "name": "Johnathan Miller",
+  "signals": [
+    "Recent emergency encounter",
+    "Latest BNP 530.0 pg/mL",
+    "Latest A1c 9.2%"
+  ],
+  "issues": [
+    "No ACE/ARB documented for patient with HF",
+    "Elevated BNP; evaluate volume status and HF control",
+    "Poor glycemic control (A1c \u2265 8.0%)"
+  ],
+  "summary": {
+    "BNP": 530,
+    "A1c": 9.2,
+    "Weight(kg)": 103.0
+  },
+  "changes": {
+    "new_items": [
+      "Plan: Increase furosemide for 3 days, follow up with cardiology within 1 week.",
+      "Return to ED if worsening shortness of breath.",
+      "Weight up 2 kg per patient.",
+      "BNP elevated to 530.",
+      "Assessment: Acute on chronic heart failure exacerbation."
+    ],
+    "resolved_items": [
+      "Assessment: Type 2 DM, A1c 9.2%.",
+      "Follow up 3 months.",
+      "Review of systems: negative except mild dyspnea on exertion.",
+      "Plan: reinforce adherence to metformin 1,000 mg BID, discuss adding GLP-1 RA."
+    ],
+    "numeric_changes": [],
+    "regressions": [
+      "Plan: Increase furosemide for 3 days, follow up with cardiology within 1 week.",
+      "Return to ED if worsening shortness of breath.",
+      "Weight up 2 kg per patient.",
+      "BNP elevated to 530.",
+      "Assessment: Acute on chronic heart failure exacerbation."
+    ],
+    "improvements": []
+  },
+  "recent_notes": [
+    {
+      "encounter_id": "enc-ed-2025-10-12",
+      "note_datetime": "2025-10-12T22:50:00",
+      "note_type": "ED Provider Note",
+      "author": "Dr. Smith",
+      "summary_points": [
+        "Plan: Increase furosemide for 3 days, follow up with cardiology within 1 week.",
+        "Return to ED if worsening shortness of breath.",
+        "Weight up 2 kg per patient.",
+        "BNP elevated to 530.",
+        "Assessment: Acute on chronic heart failure exacerbation."
+      ],
+      "actions": [
+        "Assessment: Acute on chronic heart failure exacerbation. BNP elevated to 530. Weight up 2 kg per patient. Plan: Increase furosemide for 3 days, follow up with cardiology within 1 week. Return to ED if worsening shortness of breath."
+      ]
+    },
+    {
+      "encounter_id": "enc-primary-2025-07-18",
+      "note_datetime": "2025-07-18T09:30:00",
+      "note_type": "Primary Care Note",
+      "author": "Dr. Lee",
+      "summary_points": [
+        "Assessment: Type 2 DM, A1c 9.2%.",
+        "Follow up 3 months.",
+        "Review of systems: negative except mild dyspnea on exertion.",
+        "Plan: reinforce adherence to metformin 1,000 mg BID, discuss adding GLP-1 RA."
+      ],
+      "actions": [
+        "Assessment: Type 2 DM, A1c 9.2%. Plan: reinforce adherence to metformin 1,000 mg BID, discuss adding GLP-1 RA. Follow up 3 months. Review of systems: negative except mild dyspnea on exertion."
+      ]
+    }
+  ],
+  "issues_enriched": [
+    {
+      "text": "No ACE/ARB documented for patient with HF",
+      "confidence": "medium",
+      "evidence": [],
+      "category": "issue"
+    },
+    {
+      "text": "Elevated BNP; evaluate volume status and HF control",
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "Observation",
+          "id": "obs-bnp-2025-10",
+          "when": "2025-10-12T19:00:00",
+          "detail": "BNP latest"
+        }
+      ],
+      "category": "issue"
+    },
+    {
+      "text": "Poor glycemic control (A1c \u2265 8.0%)",
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "Observation",
+          "id": "obs-a1c-2025-07",
+          "when": "2025-07-12T00:00:00",
+          "detail": "A1c latest"
+        }
+      ],
+      "category": "issue"
+    }
+  ],
+  "overdue_flags": [
+    {
+      "text": "Post-ED follow-up not documented within 14 days of 2025-10-12",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "Encounter",
+          "id": "enc-ed-2025-10-12",
+          "when": "2025-10-12T18:25:00Z",
+          "detail": "ED encounter"
+        }
+      ],
+      "category": "follow_up",
+      "needed_by": "2025-10-26"
+    },
+    {
+      "text": "Electrolytes/BMP not found for patient on loop diuretic (check K+ within 30 days)",
+      "confidence": "medium",
+      "evidence": [],
+      "category": "lab_overdue"
+    }
+  ]
+}

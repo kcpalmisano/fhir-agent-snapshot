@@ -1,0 +1,39 @@
+{
+  "patientId": "patient-ar",
+  "name": "Alice Rodriguez",
+  "signals": [
+    "Latest BNP 180.0 pg/mL"
+  ],
+  "issues": [],
+  "summary": {
+    "BNP": 180,
+    "A1c": null,
+    "Weight(kg)": 79.5
+  },
+  "changes": {
+    "new_items": [],
+    "resolved_items": [],
+    "numeric_changes": [],
+    "regressions": [],
+    "improvements": []
+  },
+  "recent_notes": [
+    {
+      "encounter_id": "enc-cardiology-2025-09",
+      "note_datetime": "2025-09-15T15:00:00",
+      "note_type": "Cardiology Follow-up",
+      "author": "Dr. Patel",
+      "summary_points": [
+        "Plan: continue current therapy, low-sodium diet, monitor weight, follow up 3 months.",
+        "BNP 180.",
+        "Patient on lisinopril 10 mg daily and metoprolol succinate 50 mg.",
+        "Impression: HF stable."
+      ],
+      "actions": [
+        "Impression: HF stable. Patient on lisinopril 10 mg daily and metoprolol succinate 50 mg. BNP 180. Plan: continue current therapy, low-sodium diet, monitor weight, follow up 3 months."
+      ]
+    }
+  ],
+  "issues_enriched": [],
+  "overdue_flags": []
+}

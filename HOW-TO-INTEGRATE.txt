@@ -1,0 +1,17 @@
+
+Open main_epic.py and add these imports near the top:
+from notes.markdown_template import render_briefing_md
+from safety.evidence import collect_objective_evidence
+from safety.overdue import check_post_ed_followup, check_lab_overdue
+from safety.confidence import enrich_snapshot_issues
+
+Then inside build_briefing(...), after computing `snap` and `change_block`, add:
+    evidence = collect_objective_evidence(bundle)
+    enriched_issues = enrich_snapshot_issues(snap, evidence)
+    overdue_flags = []
+    overdue_flags += check_post_ed_followup(bundle.get('encounters', []), window_days=14)
+    overdue_flags += check_lab_overdue(bundle, days=30)
+
+and set these in the briefing dict:
+    'issues_enriched': enriched_issues,
+    'overdue_flags': overdue_flags
